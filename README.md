@@ -1,3 +1,5 @@
-# Basic Web Template
+# Timed Color Change
 
-This is a basic web template for projects. After cloning this to local computer remember to change the origin with $ git remote set-url origin ... 
+Change color of text and background with setInteraval() and jQuery.
+
+After that was accomplished I tried to make it resemble a neon sign. It links to a website about neon lights that I think is a really well done website.

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,8 +7,37 @@
 }
 
 /*Clear Fix--------------------*/
-.group:after {
+/*.group:after {
   content: "";
   display: table;
   clear: both;
+}
+*/
+
+body {
+	background-color: rgb(125, 125, 125);
+	font-family: 'Monoton', cursive;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.sign {
+	background-color: #000;
+	border: 5px solid red;
+	border-radius: 10px;
+	margin-top: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #FF0000;
+	font-size: 3em;
+	opacity: .3;
+	padding: 15px 25px;
 }
