@@ -15,7 +15,7 @@
 */
 
 body {
-	background-color: rgb(125, 125, 125);
+	background-color: #7D7D7D;
 	font-family: 'Monoton', cursive;
 }
 
@@ -31,13 +31,20 @@ body {
 	margin-top: 200px;
 }
 
-a {
-	text-decoration: none;
-}
-
-h1 {
+.open {
 	color: #FF0000;
 	font-size: 3em;
 	opacity: .3;
 	padding: 15px 25px;
+}
+
+.welcome {
+	color: #7D7D7D;
+	font-size: 3em;
+	opacity: .3;
+	padding: 15px 25px;
+}
+
+a {
+	text-decoration: none;
 }
